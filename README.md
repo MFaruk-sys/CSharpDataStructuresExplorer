@@ -18,6 +18,13 @@ A practical C#/.NET 8 project to explore, compare, and benchmark essential data 
    - Run all comparisons
    - Run all data structure demos
 
+## Benchmark Accuracy
+To get reliable benchmark results, always run in Release mode:
+```bash
+dotnet build -c Release
+dotnet run -c Release
+```
+
 ## Why?
 - Learn C# data structures and their differences
 - Prepare for interviews
